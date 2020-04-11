@@ -31,7 +31,7 @@ var server = http.createServer(function (request, response) {
     <head>
     <link rel="stylesheet" href="/x">
     </head>
-    <body><h1>标题</h1></body>
+    <body><h1>标题测试</h1></body>
     `);
     response.end();
   } else if (path === "/x") {
